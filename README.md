@@ -20,9 +20,9 @@
 
   https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js
   
-- In the file where the socket is declared (in your case, it is app/assets/javascripts/src/pages/owner/accountings/payment.js), change the socket host from:
+- In the file where the socket is declared (in your case, it is app/assets/javascripts/src/pages/example.js), change the socket host from:
 
-  + socket = io('https://apis.medipo.io/');
+  + socket = io('https://example.com'); // https://example.com is your api path
 to:
   + socket = io('http://localhost:3002');
 
